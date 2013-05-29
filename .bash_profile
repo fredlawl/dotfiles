@@ -42,3 +42,9 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+# File/Dir Colors
+alias ls='ls -G'
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
